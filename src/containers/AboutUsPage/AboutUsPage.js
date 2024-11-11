@@ -7,7 +7,6 @@ const AboutUsPage = () => {
 
     return (
         <div>
-            <Banner />
             <div className={css.ProductList}>
                 {products.map((product) => {
                     return <ProductCard key={product.id} product={product} className={css.ProductList__card} />
